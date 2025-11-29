@@ -1,25 +1,57 @@
-# Kelvin Double Bridge Method
-# Aim
-To determine the value of a very low unknown resistance (S) using the Kelvin Double Bridge method.
+# Aim:
+To measure energy using Single Phase Energy Meter
 
-# Apparatus Required
-DC supply (12V)
-Kelvin Double Bridge setup
-Rheostat (Rs)
-Ammeter
-Voltmeter / Millivoltmeter
-Unknown low resistance (S)
-Connecting wires
-# Procedure
-Set the voltage (V = 12V) and switch on the board. Keep Switch (S) in Short mode and adjust the rheostat (Rs) to maintain the current at 2A, 3A, 4A, or 5A.
-Set Switch (S) to Open mode and set the low resistance value within 0.001 to 0.01 Ω from the "Set The Unknown Resistance S" box.
-Set Switch (S) to Bridge mode and Switch (K) to Open mode.
-Vary the values of RA, RB, Ra, and Rb from the control box or directly enter the values until the millivoltmeter shows zero deflection.
-Now, set Switch (K) to Close mode and again vary RA, RB, Ra, and Rb to achieve zero deflection.
-Once "NULL" is achieved, click on Calculate in the "Calculated Unknown Resistance Value" box to obtain the resistance value of the unknown resistor (S).
-# OUTPUT
-![WhatsApp Image 2025-11-18 at 17 39 11_75f140aa](https://github.com/user-attachments/assets/778236fd-3076-45f3-9102-0323d712fd3c)
-![WhatsApp Image 2025-11-18 at 17 39 35_35357e91](https://github.com/user-attachments/assets/26d28cde-14e0-4894-81fd-85918454e685)
+## Procedure:
+Step 1: Make Connections as per the instructions given below:
 
-# Result
-The value of the unknown low resistance (S) was successfully measured using the Kelvin Double Bridge method.
+S1 of MCB - A1 of Ammeter and A2 of Ammeter - V1 of Voltmeter
+V1 of Voltmeter - Mw of Wattmeter and Mw of Wattmeter - C of Wattmeter
+S2 of MCB - V of Wattmeter and V of Wattmeter - N1 of Energy Meter
+N2 of Energy Meter - L2 of Load and Le of Energy Meter - L1 of Load
+L of Wattmeter - M of Energy Meter and S2 of MCB - V2 of Voltmeter
+NOTE : If wire is wrongly connected, Click on node number to detach the wire.
+
+Step 2: Click on   CHECK  button for checking the connections.
+
+Step 3: Click on the mcb off MCB to Turn ON mcb on the supply.
+
+Step 4: Select the number of Bulbs from the Lamp Load.
+
+Step 5: Count the number of times Green LED blinks in 1 min (Meter Counter) by using 'Stopwatch'.
+
+Step 6: Enter the number of times Green LED blinks in 1 min (Meter Counter).
+
+Step 7: Click on   ADD  button to add the readings to the Observation Table.
+
+Step 8: Add different readings to the table by selecting different number of bulbs.
+
+Step 9: Click on   PRINT  button to print the webpage.
+
+Step 10: Click on   RESET  button to refresh the webpage.
+
+## FORMULA
+Actual Energy (A) = 
+V*I*T /1000     kw-hr
+
+Recorded Energy (R) = Number of Impulse (1min)/Meter Constant
+
+Meter Constant = 3200 Imp/kw-hr
+
+Relative Error = 
+R−A /A *100%
+
+Enter the no. of times Green LED blinks in 1min(Meter Counter):  
+
+## Circuit Connection Diagram with Tabulation 
+
+<img width="1103" height="478" alt="image" src="https://github.com/user-attachments/assets/5ff90202-b4f0-4469-875e-1ab888ab7ba6" />
+
+## Output Waveform
+<img width="955" height="690" alt="image" src="https://github.com/user-attachments/assets/4a093edc-251f-4bca-9c13-cfd1ee5c365f" />
+
+
+
+
+
+## Result
+Thus the energy has been measured using single phase energy meter
